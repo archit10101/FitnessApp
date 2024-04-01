@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>         <!-- Teal Blue -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Dark Teal Blue -->
+        <item name="colorAccent">@color/colorAccent</item>           <!-- Pink (just an example) -->
+        <item name="android:windowBackground">@color/black</item>    <!-- Background color -->
+    </style>
+</resources>

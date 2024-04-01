@@ -1,0 +1,12 @@
+<resources>
+    <color name="grey">#E0E0E0</color>
+
+
+    <color name="colorPrimary">#008080</color>     <!-- Teal Blue -->
+    <color name="colorPrimaryDark">#005454</color> <!-- Dark Teal Blue -->
+    <color name="colorAccent">#FF4081</color>      <!-- Pink (just an example, you can change this) -->
+    <color name="black">#000000</color>             <!-- Black -->
+
+
+
+</resources>
