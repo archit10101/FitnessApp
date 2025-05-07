@@ -54,35 +54,11 @@ Provides a globally accessible instance of the Bluetooth EMS object:
 
 ### Bluetooth.java
 
-(Not included in the provided code)
-
 Handles low-level Bluetooth communication with the EMS device:
 - `startAdd(String command)` sends EMS signals based on current rep or set status
 
-## Dependencies
+## Dependencies Used
 
 - AndroidX AppCompat
 - [CircularSeekBar](https://github.com/Tankery/CircularSeekBar) by Tankery
 - Android SDK API 21 or higher
-
-## Permissions
-
-Ensure the following permissions are included in `AndroidManifest.xml`:
-
-```xml
-<uses-permission android:name="android.permission.BLUETOOTH" />
-<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-<uses-permission android:name="android.permission.WAKE_LOCK" />
-````
-
-## How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/FitnessApp.git
-   ```
-2. Open the project in Android Studio.
-3. Build and run the app on a physical Android device (Bluetooth functionality will not work on emulators).
-4. Ensure the EMS device is powered on and discoverable.
-
